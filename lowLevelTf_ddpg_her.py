@@ -257,6 +257,11 @@ def main():
     
     # implement K-future strategy for HER
     K = 4
+    '''
+    the ratio between HER replays and regular replays (e.g. K = 4 -> 4 times
+            as many HER replays as regular replays are used)
+            
+    '''
 
     # initialize buffers for tracking progress
     a_losses = []
